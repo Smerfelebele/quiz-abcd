@@ -1,0 +1,153 @@
+1. Ktore zdanie najlepiej opisuje prawdopodobienstwo blokady?
+ Stosunek zablokowanych stanowisk obslugi do calkowitej liczby stanowisk obslugi
+ Stosunek czasu bezczynnosci wszystkich stanowisk obslugi do calkowitego czasu obserwacji
+ Stosunek czasu zajetosci wszystkich stanowisk obslugi (serwerow)  do calkowitego czasu obserwacji
+ Stosunek zablokowanych zgloszen do calkowitej liczby oferowanych zgloszen
+2
+
+2. Ktore zdanie najlepiej opisuje prawdopodobienstwo strat?
+ Stosunek straconych zgloszen do calkowitej liczby stanowisk obslugi
+ Stosunek straconych stanowisk obslugi  do calkowitej liczby stanowisk obslugi
+ Stosunek czasu zajetosci wszystkich stanowisk obslugi do calego czasu obserwacji.
+ Stosunek odrzuconych zgloszen do  liczby oferowanych zgloszen
+3
+
+3. Ktora definicja intensywnosci ruchu przenoszonego (Zalatwianego?) jest prawdziwa?
+ Intensywnosc ruchu przenoszonego jest rowna sredniej liczbie jednoczesnie bezczynnych  serwerow w czasie okreslonego czasu obserwacji
+ Intensywnosc ruchu przenoszonego jest rowna stosunkowi  sredniej liczby polaczen do sredniego czasu obslugi 
+ Intensywnosc ruchu przenoszonego jest rowna stosunkowi  sredniej liczby oferowanych rozmow (polaczen?)  do sredniego czasu obslugi
+ Intensywnosc ruchu przenoszonego jest rowna sredniej liczbie jednoczesnie blokowanych rozmow (polaczen?) w czasie okreslonego czasu obserwacji
+0
+
+4. Ktore zdanie poprawnie opisuje pojecie ruchu odrzuconego?
+ Wszystkie 3 odpowiedzi sa dobre
+ Ruch ktory bedzie obsluzony przez system pozniej
+ Ruch przenoszony przez grupe stanowisk obslugi (serwerow) w przedziale czasu T
+ Ruch ktory nie moze byc obsluzony przez system z powodu braku zasobow
+3
+
+5. Ktore zdanie poprawnie opisuje pojecie strumienia uslug?
+ Strumien uslug jest definiowany dwoma parametrami: dostepnoscia i pojemnoscia
+ Strumien uslug jest tworzony przez rozmowy (polaczenia) odrzucone
+ Strumien uslug sklada sie z uslug pojawiajacych sie w okreslonych momentach czasu
+ Strumien uslug jest okreslany przez momenty zakanczania uslug rozmow (?)
+2
+
+6. Ktora wlasnosc nie odnosi sie do strumienia Poissona?
+ stacjonarnosc
+ bezpamieciowosc
+ dostepnosc
+ pojedynczosc
+2
+
+7.  Ktory rodzaj ruchu nie istnieje?
+ odrzucony
+ przenoszony (zalatwiany?)
+ loaded traffic - ruch zaladowany? ladowania?
+ oferowany
+2
+
+8. Ktory rodzaj rezerwacji jest uzywany w systemach telekomunikacyjnych?
+ Statyczna i dynamiczna
+ Losowa i pelna (?)
+ Pelna i statyczna (?)
+ Dynamiczna i losowa
+0
+
+9. Ktore zdanie jest poprawne?
+ Dynamiczna rezerwacja bazuje na wprowadzeniu tak zwanej rezerwacji progowej (?) dla kazdego strumienia ruchu
+ Dynamiczna rezerwacja bazuje na odpowiednim algorytmie ustanawiania nowego polaczenia
+ Dynamiczna rezerwacja bazuje na dynamicznym podziale zasobow miedzy rozne klasy ruchu (rozmow?)
+ Dynamiczna rezerwacja bazuje na stalym podziale zasobow miedzy rozne klasy ruchu (rozmow?)
+0
+
+10.  Liczba mikrostanow w procesie Markowa odnoszacym sie do Full-Avaliability Group (FAG) z wielouslugowymi strumieniami ruchu jest:
+  zalezna od liczby oferowanych klas ruchu
+ nieskonczona
+ rowna pojemnosci FAG
+ o jeden wieksza od pojemnosci FAG
+0
+
+11.  Ktore zdanie opisuje FAG z jednouslugowym ruchem Erlanga?
+ Liczba zrodel ruchu jest nieskonczona, kazda rozmowa wymaga jednego serwera (stanowiska?) do obslugi (?),  czas obslugi ma rozklad logarytmiczny
+ Liczba zrodel ruchu jest skonczona, kazda rozmowa wymaga jednego serwera (stanowiska?) do obslugi (?),  czas obslugi ma rozklad wykladniczy
+ Liczba zrodel ruchu jest nieskonczona, kazda rozmowa wymaga roznej liczby serwerow (stanowisk?) do obslugi (?),  czas obslugi ma rozklad wykladniczy
+ Liczba zrodel ruchu jest nieskonczona, kazda rozmowa wymaga jednego serwera (stanowiska?) do obslugi (?),  czas obslugi ma rozklad wykladniczy
+3
+
+12.  Ktory wzor jest uzywany do okreslania rozkladu zajetosci w FAG z ruchem wielouslugowym?
+ wzor Little
+ wzor Kaufmana-Robertsa
+ wzor B Erlanga
+ wzor Engseta
+1
+
+13.  Liczba mikrostanow w procesie Markowa odnoszacym sie do Full-Avaliability Group (FAG) z jednouslugowymi strumieniami ruchu to:
+ wszystkie 3 odpowiedzi sa zle
+ mi + lambda
+ o jeden wieksza niz pojemnosc FAG 
+ rowna pojemnosci FAG
+2
+
+14. Ktore twierdzenie odnosi sie do modelu Erlanga FAG?
+ prawdopodobienstwo blokady jest rowne prawdopodobienstwu strat
+ prawdopodobienstwo blokady jest wieksze od prawdopodobienstwa strat
+ prawdopodobienstwo blokady jest zawsze rowne 0
+ prawdopodobienstwo blokady jest mniejsze od prawdopodobienstwa strat
+0
+
+15. Ktory zestaw parametrow moze zostac uzyty do opisu ruchu przelewowego?
+ T- sredni czas obslugi , lambda - intensywnosc strumienia obslugi
+ Y - intensywnosc przenoszonego ruchu, sigma (?) - wariancja intensywnosci przenoszonego ruchu (?) 
+ lambda - intensywnosc ruchu rozmownego, mi - sredni czas obslugi 
+ R - srednia wartosc  intensywnosci ruchu przelewowego, sigma kwadrat - wariancja intensywnosci ruchu przelewowego
+3
+
+16. Wspolczynnik degeneracji (?) Z ruchu przelewowego jest:
+ wiekszy od 1
+ rowny nieskonczonosci
+ mniejszy od 1
+ rowny 1
+0
+
+17.  Czym jest parametr A we wzorze?
+ pojemnoscia systemu
+ srednim czasem obslugi
+ intensywnoscia ruchu oferowanego
+ prawdopodobienstwem blokady
+2
+
+18. Rysunek prezentuje diagram stanow dla FAG z 2 serwerami. Jakie jest prawdopodobienstwo blokady i prawdopodobienstwo strat w FAG?   
+ E=0,4, B=0
+ E=0,4, B=0,4
+ E=0,4, B=0,2
+ E=0, B=0,4
+1
+
+19. Co przedstawia rysunek?
+ wielouslugowy proces Markowa
+  diagram stanow dla FAG z V serwerami
+ diagram stanow dla modelu Engseta dla FAG
+ system kolejkowy ze skonczonym buforem
+1
+
+20. Ruch oferowany przez skonczona liczbe zrodel to:
+ ruch Riordana
+ ruch Erlanga
+ ruch Engseta
+ ruch przelewowy
+2
+
+21. Co oznacza parametr   w tym rownaniu? 
+ prawdopodobienstwo blokady
+ intensywnosc ruchu oferowanego
+ warunkowe prawdopodobienstwo przejscia
+ liczbe zaalokowanych jednostek
+2
+
+22. System kolejkowy sklada sie z 2 serwerow i 1 miejsca w kolejce. Napisz notacje Kandela systemu
+ M/D/1/2
+ M/M/2/1
+ M/M/2/2
+ M/M/1/2
+1
